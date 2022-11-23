@@ -1,0 +1,5 @@
+
+li:nth-child(1) a:after {
+    transform: scaleX(1);
+    
+}

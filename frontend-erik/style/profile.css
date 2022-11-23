@@ -1,0 +1,102 @@
+li:nth-child(2) a:after {
+  transform: scaleX(1);
+  
+}
+
+
+
+
+
+.section-about{
+  width: 100%;
+  height: 120vh;
+}
+
+h1{
+  margin-bottom: 50px;
+  margin-left: 10px;
+}  
+
+.content-wrap{
+  display:  flex;
+  z-index: -1;
+  width: 80%;
+  margin: 20vh auto;
+  justify-content: center;
+}
+
+
+.container-1{
+  max-width: 400px;
+}
+
+
+.text-container{
+  /* background-color: red; */
+  max-width: 400px;
+  margin: 10px;
+}
+
+
+.container4{
+  position: absolute;
+  bottom: -20vh;
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(198, 184, 220);
+  padding-top: 10px;
+}
+
+.container4 h1{
+  text-align: center;
+}
+
+
+
+.container-5{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 40vh;
+  width: 60%;
+  padding: 20px;
+  margin: -30px auto;
+  border-radius:20px ;
+  overflow: auto;
+}
+
+
+
+.container-4::-webkit-scrollbar-track{
+  background: red;
+}
+
+.container-5 table{
+  border: 1px solid rgb(201, 201, 201);
+  background-color: black;
+}
+
+.container-5 table tr td {
+  background-color: white;
+}
+
+.container-5 table thead tr td {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.container-5 table thead tr td:nth-child(1){
+  padding: 10px ;
+  text-align: center;
+}
+
+.container-5 table  tr td {
+  text-align: center;
+  padding: 30px 30px;
+
+}
+
+
+
+
+
